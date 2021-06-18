@@ -22,7 +22,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 [PT]  O Laravel tem a [documentação](https://laravel.com/docs) mais extensa e completa e biblioteca de tutoriais em vídeo de todos os frameworks de aplicativos da web modernos, tornando muito fácil começar com o framework.
 
-Se você não tem vontade de ler, o [Laracasts](https://laracasts.com). O Laracasts contém mais de 1500 tutoriais em vídeo em uma variedade de tópicos, incluindo Laravel, PHP moderno, teste de unidade e JavaScript. Aumente suas habilidades pesquisando nossa abrangente biblioteca de vídeos.
+Se você não tem vontade de ler, o [Laracasts](https://laracasts.com) pode ajudar. O Laracasts contém mais de 1500 tutoriais em vídeo em uma variedade de tópicos, incluindo Laravel, PHP moderno, teste de unidade e JavaScript. Aumente suas habilidades pesquisando nossa abrangente biblioteca de vídeos.
 
 
 ## Laravel Course // Curso Laravel
