@@ -18,7 +18,7 @@
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-====================================================================================================================
+============================================================================================
 
 [PT]  O Laravel tem a [documentação](https://laravel.com/docs) mais extensa e completa e biblioteca de tutoriais em vídeo de todos os frameworks de aplicativos da web modernos, tornando muito fácil começar com o framework.
 
