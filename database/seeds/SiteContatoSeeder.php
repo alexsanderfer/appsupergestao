@@ -12,7 +12,6 @@ class SiteContatoSeeder extends Seeder
      */
     public function run()
     {
-
         /*
         $contato = new SiteContato();
         $contato->nome = 'Sistema SG';
@@ -22,7 +21,6 @@ class SiteContatoSeeder extends Seeder
         $contato->mensagem = 'Seja bem-vindo ao sistema Super Gestão';
         $contato->save();
         */
-
-        SiteContato::factory()->count(100)->create();
+        SiteContato::factory()->count(10)->create();
     }
 }
