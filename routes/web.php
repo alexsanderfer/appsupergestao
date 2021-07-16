@@ -29,6 +29,10 @@ Route::middleware('autenticacao:padrao,visitante')->prefix('/app')->group(functi
 
     // Rotas & Controladores dos Produtos
     Route::resource('produto', 'ProdutoController');
+
+    // Produto detalhes
+    Route::resource('produto-detalhe', 'ProdutoDetalheController');
+
 });
 
 Route::fallback(function () {
