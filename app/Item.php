@@ -13,14 +13,15 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 class Item extends Model
 {
     use HasFactory;
-
+    /* Relação entre ItemDetalhes e Item através do hasOne, fazendo referência a foreignKey e localKey
+    * A classe está mapeando suas respectivas tabelas relacionais. */
     protected $table= 'produtos';
     protected $fillable = ['nome', 'descricao', 'peso', 'unidade_id'];
 
     /**
      * @return HasOne
      */
-    public function produtoDetalhe()
+    public function itemDetalhe(): HasOne
     {
         return $this->hasOne('App\ItemDetalhe', 'produto_id', 'id');
     }

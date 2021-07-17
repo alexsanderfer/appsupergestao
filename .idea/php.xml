@@ -109,6 +109,11 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
     </include_path>
   </component>
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="127.0.0.1" id="34a092b9-4d78-443c-b8f4-378c6b3fab1a" name="Localhost" />
+    </servers>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
   <component name="PhpUnit">
     <phpunit_settings>
