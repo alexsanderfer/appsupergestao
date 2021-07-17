@@ -17,7 +17,7 @@
                         <th>Nome do Produto</th>
                         <th>Descrição</th>
                         <th>Peso</th>
-                        <th>Unidade ID</th>
+                        <th>ID</th>
                         <th>Comprimento</th>
                         <th>Altura</th>
                         <th>Largura</th>
@@ -31,11 +31,11 @@
                         <tr>
                             <td>{{$produto->nome}}</td>
                             <td>{{$produto->descricao}}</td>
-                            <td>{{$produto->peso}}</td>
+                            <td>{{$produto->peso}} kgs</td>
                             <td>{{$produto->unidade_id}}</td>
-                            <td>{{$produto->itemDetalhe->comprimento ?? ''}}</td>
-                            <td>{{$produto->itemDetalhe->altura ?? ''}}</td>
-                            <td>{{$produto->itemDetalhe->largura ?? ''}}</td>
+                            <td>{{$produto->itemDetalhe->comprimento ?? ''}} cms</td>
+                            <td>{{$produto->itemDetalhe->altura ?? ''}} cms</td>
+                            <td>{{$produto->itemDetalhe->largura ?? ''}} cms</td>
                             <td><a href="{{route('produto.show', ['produto' => $produto->id])}}">Visualizar</a></td>
                             <td><a href="{{route('produto.edit', ['produto' => $produto->id])}}">Editar</a></td>
                             <td>
