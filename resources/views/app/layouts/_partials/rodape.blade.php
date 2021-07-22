@@ -16,4 +16,3 @@
         <img src="{{ asset('img/mapa.png') }}">
     </div>
 </div>
-

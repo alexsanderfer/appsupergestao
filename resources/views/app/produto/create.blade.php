@@ -3,7 +3,7 @@
 @section('conteudo')
     <div class="conteudo-pagina">
         <div class="titulo-pagina-2">
-                <p>Adicionar um Produto</p>
+                <p>Adicionar um Novo Produto</p>
         </div>
 
         <div class="menu">

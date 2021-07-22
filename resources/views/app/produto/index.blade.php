@@ -5,7 +5,7 @@
         <div class="titulo-pagina-2"><p>Listagem de Produtos</p></div>
         <div class="menu">
             <ul>
-                <li><a href="{{route('produto.create')}}">Cadastrar um Produto</a></li>
+                <li><a href="{{route('produto.create')}}">Cadastrar um Novo Produto</a></li>
             </ul>
         </div>
         <br>
