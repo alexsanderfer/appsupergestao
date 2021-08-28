@@ -21,6 +21,6 @@ class SiteContatoSeeder extends Seeder
         $contato->mensagem = 'Seja bem-vindo ao sistema Super Gestão';
         $contato->save();
         */
-        SiteContato::factory()->count(10)->create();
+        //SiteContato::factory()->count(10)->create();
     }
 }
