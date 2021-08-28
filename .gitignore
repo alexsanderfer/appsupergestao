@@ -10,4 +10,4 @@ npm-debug.log
 yarn-error.log
 .idea
 /.idea/app_super_gestao.iml
-
+/vendor
