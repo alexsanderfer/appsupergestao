@@ -16,6 +16,7 @@
                     <tr>
                         <th>Nome do Produto</th>
                         <th>Descrição</th>
+                        <th>Fornecedor</th>
                         <th>Peso</th>
                         <th>ID</th>
                         <th>Comprimento</th>
@@ -31,6 +32,7 @@
                         <tr>
                             <td>{{$produto->nome}}</td>
                             <td>{{$produto->descricao}}</td>
+                            <td>{{$produto->fornecedor->nome}}</td>
                             <td>{{$produto->peso}} kgs</td>
                             <td>{{$produto->unidade_id}}</td>
                             <td>{{$produto->itemDetalhe->comprimento ?? ''}} cms</td>
