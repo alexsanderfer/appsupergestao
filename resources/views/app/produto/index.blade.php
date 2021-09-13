@@ -15,13 +15,15 @@
                     <thead>
                     <tr>
                         <th>Nome do Produto</th>
-                        <th>Descrição</th>
-                        <th>Fornecedor</th>
-                        <th>Peso</th>
-                        <th>ID</th>
-                        <th>Comprimento</th>
-                        <th>Altura</th>
-                        <th>Largura</th>
+                        <th>Descrição do Produto</th>
+                        <th>Nome do Fornecedor</th>
+                        <th>Site do Fornecedor</th>
+                        <th>E-mail do Fornecedor</th>
+                        <th>Peso do Produto</th>
+                        <th>ID do Produto</th>
+                        <th>Comprimento do Produto</th>
+                        <th>Altura do Produto</th>
+                        <th>Largura do Produto</th>
                         <th></th>
                         <th></th>
                         <th></th>
@@ -33,6 +35,8 @@
                             <td>{{$produto->nome}}</td>
                             <td>{{$produto->descricao}}</td>
                             <td>{{$produto->fornecedor->nome}}</td>
+                            <td>{{$produto->fornecedor->site}}</td>
+                            <td>{{$produto->fornecedor->email}}</td>
                             <td>{{$produto->peso}} kgs</td>
                             <td>{{$produto->unidade_id}}</td>
                             <td>{{$produto->itemDetalhe->comprimento ?? ''}} cms</td>

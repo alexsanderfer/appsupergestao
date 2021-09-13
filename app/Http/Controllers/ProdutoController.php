@@ -22,7 +22,7 @@ class ProdutoController extends Controller
      */
     public function index(Request $request)
     {
-        $produtos = Item::with(['itemDetalhe'])->paginate(20);
+        $produtos = Item::with(['itemDetalhe', 'fornecedor'])->paginate(20);
         return view('app.produto.index', ['produtos' => $produtos, 'request' => $request->all()]);
     }
 
