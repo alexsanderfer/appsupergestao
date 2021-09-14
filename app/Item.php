@@ -16,7 +16,7 @@ class Item extends Model
     /* Relação entre ItemDetalhes e Item através do hasOne, referir-se a foreignKey e localKey
     * A classe está mapeando suas respectivas tabelas relacionais. */
     protected $table= 'produtos';
-    protected $fillable = ['nome', 'descricao', 'peso', 'unidade_id'];
+    protected $fillable = ['nome', 'descricao', 'peso', 'unidade_id', 'fornecedor_id'];
 
     public function itemDetalhe() : HasOne
     {
