@@ -40,6 +40,5 @@ Route::middleware('autenticacao:padrao,visitante')->prefix('/app')->group(functi
 });
 
 Route::fallback(function () {
-    echo 'A página acessada não existe. <a href="' . route('site.index') .
-        '">clique aqui</a> para ir para página inicial';
+    echo 'A página acessada não existe. <a href="' . route('site.index') . '">clique aqui</a> para ir para página inicial';
 });

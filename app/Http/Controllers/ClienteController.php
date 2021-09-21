@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Cliente;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
@@ -14,9 +15,10 @@ class ClienteController extends Controller
      *
      * @return Factory|Application|View
      */
-    public function index()
+    public function index(Request $request)
     {
-        return view('app.cliente');
+        $clientes = Cliente::paginate(10);
+        return view('app.cliente.index', ['clientes' => $clientes, 'request' => $request->all()]);
     }
 
     /**
