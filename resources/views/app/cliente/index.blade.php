@@ -18,6 +18,7 @@
                         <th>ID do Cliente</th>
                         <th>❌</th> <!-- Emoji excluir -->
                         <th>🛠</th> <!-- Emoji editar -->
+                        <th>👁️</th> <!-- Emoji visualizar -->
                         <!-- Se possível, usar o Fontawesome para esses símbolos -->
                     </tr>
                     </thead>
@@ -36,6 +37,7 @@
                                 </form>
                             </td>
                             <td><a href="{{route('cliente.edit', ['cliente' => $cliente->id])}}">Editar</a></td>
+                            <td><a href="{{route('cliente.show', ['cliente' => $cliente->id])}}">Visualizar</a></td>
                         </tr>
                     @endforeach
                     </tbody>

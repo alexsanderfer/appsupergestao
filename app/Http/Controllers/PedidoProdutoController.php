@@ -2,7 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Pedido;
+use App\Produto;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
+
 
 class PedidoProdutoController extends Controller
 {
@@ -19,11 +25,12 @@ class PedidoProdutoController extends Controller
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Application|Factory|View
      */
-    public function create()
+    public function create(Pedido $pedido)
     {
-        //
+        $produtos = Produto::all();
+        return view('app.pedido_produto.create', ['pedido' => $pedido, 'produtos' => $produtos]);
     }
 
     /**
@@ -32,9 +39,15 @@ class PedidoProdutoController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, Pedido $pedido)
     {
-        //
+        echo '<pre>';
+        print_r($pedido);
+        echo '</pre>';
+        echo '<hr>';
+        echo '<pre>';
+        print_r($request->all());
+        echo '</pre>';
     }
 
     /**
