@@ -113,6 +113,7 @@
       <path value="$PROJECT_DIR$/vendor/league/config" />
       <path value="$PROJECT_DIR$/vendor/nette/utils" />
       <path value="$PROJECT_DIR$/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/vendor/laravel/serializable-closure" />
     </include_path>
   </component>
   <component name="PhpProjectServersManager">
